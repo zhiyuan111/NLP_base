@@ -32,7 +32,7 @@ word_prob = {"北京": 0.03, "的": 0.08, "天": 0.005, "气": 0.005, "天气": 
 for key, value in word_prob.items():
     dic_words[key] = value
 
-
+# 枚举出所有可能的分词结果
 def word_segmentation(input_str):
     segments = []
     if len(input_str) == 0:
